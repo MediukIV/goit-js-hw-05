@@ -1,6 +1,5 @@
 const getUsersWithFriend = (allUsers, friendName) => {
-  return allUsers.map(user => user.name), allUsers.filter(
-    user => user.friends.indexOf(friendName) !== -1
+  return allUsers.filter(user => user.friends.indexOf(friendName) !== -1
   );
 };
 
